@@ -1,0 +1,82 @@
+/* Fondo de la página */
+body {
+  background-color: antiquewhite;
+  /* Especifica la ruta de la imagen como valor de background-image */
+  background-image: url('ruta/de/la/imagen.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta real de tu imagen */
+  /* Ajusta la posición, repetición y tamaño de la imagen de fondo según sea necesario */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+/* Estilos para el formulario */
+#form-tarea {
+  margin-bottom: 20px;
+}
+
+#form-tarea input[type="text"] {
+  width: 85%;
+  font-style: italic;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 20px;
+  border: solid 5px #000;
+}
+
+#form-tarea button {
+  margin-left: 20px; /* Aumenta el espacio entre los botones */
+  padding: 8px 16px;
+  font-style: italic;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Estilos para las listas */
+ul {
+  font-size: 200%;
+  list-style-type: none;
+  padding: 0;
+  border-top-left-radius: 10px;
+}
+
+h2 {
+  color: #000;
+  font-style: italic;
+}
+
+/* Estilos para las tareas completadas */
+#tareas-completadas {
+  color: green;
+  font-size: xx-large;
+}
+
+/* Estilos para los elementos de lista */
+li {
+  border: solid 1px #fffaff;
+  margin-bottom: 20px; /* Aumenta el espacio entre las tareas */
+  padding: 20px; /* Aumenta el espacio interno de las tareas */
+  border-radius: 5px;
+  
+}
+
+/* Estilos para el botón de completar dentro de las tareas pendientes */
+li.pendiente button.completar {
+  margin-right: 10px; /* Aumenta el espacio entre el botón de completar y el botón de eliminar */
+}
+
+
+/* Estilos para los elementos de lista */
+li {
+  margin-bottom: 20px; /* Aumenta el espacio entre las tareas */
+  padding: 20px; /* Aumenta el espacio interno de las tareas */
+  border-radius: 5px;
+  position: relative; /* Añade posición relativa para permitir posición absoluta de los botones */
+}
+
